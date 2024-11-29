@@ -22,12 +22,15 @@ $$ \frac{\partial u}{\partial x} +  \frac{\partial v}{\partial y}=0$$
 - 动量方程:
 
 `x`方向: 
-$$ u\frac{\partial u}{\partial x} +  v\frac{\partial u}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial x}+ v(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2})$$
+
+$$ u\frac{\partial u}{\partial x} +  v\frac{\partial u}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial x}+ \nu(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2})$$
 
 `y`方向: 
-$$ u\frac{\partial v}{\partial x} +  v\frac{\partial v}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial y}+ v(\frac{\partial^2 v}{\partial x^2} + \frac{\partial^2 v}{\partial y^2}) + g\beta(T-T_0)$$
+
+$$ u\frac{\partial v}{\partial x} +  v\frac{\partial v}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial y}+ \nu(\frac{\partial^2 v}{\partial x^2} + \frac{\partial^2 v}{\partial y^2}) + g\beta(T-T_0)$$
 
 - 能量方程：
+  
 $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=a(\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2})$$
 
 ### 1.2 方程无量纲化
