@@ -44,7 +44,7 @@ $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=a(\frac{\par
 
 $$x'=\frac{x}{l},\quad y'=\frac{y}{l}, \quad u'=\frac{ul}{a}, v'=\frac{vl}{a},\quad T'=\frac{T-T_c}{T_h-T_c}, \quad p'=\frac{pl^2}{\rho a^2}$$
 
-其中，$l$ 为方腔边长，$a$ 为热扩散率，$T_h$ 和 $T_c$ 分别为方腔左边界与右边界的温度， $\rho$ 为方腔内流体密度。将以上无量纲量带入连续方程、动量方程和能量方程，并省略无量纲量的上标 $'$ ，可得二维方腔自然对流的无量纲方程组：
+其中， $l$ 为方腔边长， $a$ 为热扩散率， $T_h$ 和 $T_c$ 分别为方腔左边界与右边界的温度， $\rho$ 为方腔内流体密度。将以上无量纲量带入连续方程、动量方程和能量方程，并省略无量纲量的上标 $'$ ，可得二维方腔自然对流的无量纲方程组：
 
 - 连续方程:
 
@@ -92,25 +92,25 @@ $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=\frac{\parti
 
 - 温度场
   <div align="center">
-  <img src="images/2dCacity-non-dimensional-t.jpg" alt="computational domain" width="400">
+  <img src="images/2dCacity-non-dimensional-t.jpg" alt="computational domain" width="600">
   </div>
 
 - 速度场
   <div align="center">
-  <img src="images/2dCacity-non-dimensional-v.jpg" alt="computational domain" width="400">
+  <img src="images/2dCacity-non-dimensional-v.jpg" alt="computational domain" width="600">
   </div>
 
   <div align="center">
-  <img src="images/2dCacity-non-dimensional-vx.jpg" alt="computational domain" width="400">
+  <img src="images/2dCacity-non-dimensional-vx.jpg" alt="computational domain" width="600">
   </div>
 
   <div align="center">
-  <img src="images/2dCacity-non-dimensional-vy.jpg" alt="computational domain" width="400">
+  <img src="images/2dCacity-non-dimensional-vy.jpg" alt="computational domain" width="600">
   </div>
 
   - 压力场
   <div align="center">
-  <img src="images/2dCacity-non-dimensional-p.jpg" alt="computational domain" width="400">
+  <img src="images/2dCacity-non-dimensional-p.jpg" alt="computational domain" width="600">
   </div>
 
 ### 2.2 paddlesci求解（Python）
