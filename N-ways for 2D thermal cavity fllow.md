@@ -21,13 +21,13 @@ $$\Delta\rho \ll \rho$$
 
 - 连续方程:
 
-$$ \frac{\partial u}{\partial x} +  \frac{\partial v}{\partial y}=0 \tag{1}$$
+$$  \tag{1} \frac{\partial u}{\partial x} +  \frac{\partial v}{\partial y}=0 $$ 
 
 - 动量方程:
 
 $x$方向: 
 
-$$ u\frac{\partial u}{\partial x} +  v\frac{\partial u}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial x}+ \nu(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}) \tag{2}$$ 
+$$ \tag{2} u\frac{\partial u}{\partial x} +  v\frac{\partial u}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial x}+ \nu(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2})$$ 
 
 $y$方向: 
 
@@ -94,7 +94,7 @@ $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=\frac{\parti
   <div align="center">
   <img src="images/2dCacity-non-dimensional-t.jpg" alt="computational domain" width="400">
   </div>
-  
+
 - 速度场
   <div align="center">
   <img src="images/2dCacity-non-dimensional-v.jpg" alt="computational domain" width="400">
