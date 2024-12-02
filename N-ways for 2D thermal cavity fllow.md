@@ -44,7 +44,7 @@ $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=a(\frac{\par
 
 $$x'=\frac{x}{l},\quad y'=\frac{y}{l}, \quad u'=\frac{ul}{a}, v'=\frac{vl}{a},\quad T'=\frac{T-T_c}{T_h-T_c}, \quad p'=\frac{pl^2}{\rho a^2}$$
 
-其中，$l$为方腔边长，$a$为热扩散率，$T_h$和$T_c$分别为方腔左边界与右边界的温度，$\rho$为方腔内流体密度。将以上无量纲量带入连续方程、动量方程和能量方程，并省略无量纲量的上标$'$，可得二维方腔自然对流的无量纲方程组：
+其中，$l$ 为方腔边长，$a$ 为热扩散率，$T_h$ 和 $T_c$ 分别为方腔左边界与右边界的温度， $\rho$ 为方腔内流体密度。将以上无量纲量带入连续方程、动量方程和能量方程，并省略无量纲量的上标$'$，可得二维方腔自然对流的无量纲方程组：
 
 - 连续方程:
 
@@ -81,7 +81,7 @@ $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=\frac{\parti
   
   $$u=v=0,\quad \frac{\partial T}{\partial y}=0, \quad \frac{\partial p}{\partial y}=Pr\frac{\partial^2 v}{\partial y^2} + PrRaT,\quad y=1, \quad 0\leq x \leq 1,$$
 
-其中$Pr=0.7, Ra=1000$，对该无量纲方程组进行求解。
+其中 $Pr=0.7, Ra=1000$ ，对该无量纲方程组进行求解。
 
 
 ## 2. 算法
