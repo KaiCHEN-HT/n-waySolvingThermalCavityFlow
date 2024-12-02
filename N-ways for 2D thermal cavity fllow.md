@@ -25,7 +25,7 @@ $$\Delta\rho \ll \rho$$
 
 - 动量方程:
   
-  $x$方向: 
+$x$方向: 
 
 $$ u\frac{\partial u}{\partial x} +  v\frac{\partial u}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial x}+ \nu(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2})$$ 
 
@@ -51,12 +51,12 @@ $$x'=\frac{x}{l},\quad y'=\frac{y}{l}, \quad u'=\frac{ul}{a}, v'=\frac{vl}{a},\q
 $$ \frac{\partial u}{\partial x} +  \frac{\partial v}{\partial y}=0 $$
 
 - 动量方程:
-
-  $x$方向: 
+  
+$x$方向: 
 
 $$ u\frac{\partial u}{\partial x} +  v\frac{\partial u}{\partial y}=-\frac{\partial p}{\partial x}+ Pr(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}) $$
 
-  $y$方向: 
+$y$方向: 
 
 $$ u\frac{\partial v}{\partial x} +  v\frac{\partial v}{\partial y}=-\frac{\partial p}{\partial y}+ Pr(\frac{\partial^2 v}{\partial x^2} + \frac{\partial^2 v}{\partial y^2}) + RaPrT$$
 
@@ -86,7 +86,7 @@ $$ u\frac{\partial T}{\partial x} +  v\frac{\partial T}{\partial y}=\frac{\parti
 
 ## 2. 算法
 ### 2.1 FVM商软求解
-采用ANSYS Fluent商业软件对该问题进行求解，Fluent中求解的是有量纲方程，因此需要通过对Fluent中物性参数的设置，使得Fluent中的有量纲方程与上述无量纲方程(5)-(8)进行求解。
+采用ANSYS Fluent商业软件对该问题进行求解，Fluent中求解的是有量纲方程，因此需要通过对Fluent中物性参数的设置（密度、比热、导热系数均设置为 $1$ ，粘度设置为 $0.7$ ，热膨胀系数设置为 $RaPr/g=71.43$ ），使得Fluent中的有量纲方程与上述无量纲方程(5)-(8)进行求解。
 
 以下是Fluent计算结果：
 
